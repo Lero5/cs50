@@ -1,0 +1,55 @@
+.top-right-link {
+    border: 2px solid #b7b6ba; /* Border around the box */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Adds shadow to the box */
+    border-radius: 5px; /* Optional: Rounded corners */
+    padding: 10px 20px; /* Add padding inside the box to increase space between text and border */
+    background-color: #ffffff; /* Optional: Set a background color to enhance contrast */
+    position: absolute;
+    top: 10px; /* Distance from the top of the page */
+    right: 50px; /* Distance from the right side of the page */
+    display: flex;
+    gap: 10px; /* Optional: adds space between the items */
+    align-items: center; /* Align items vertically in the center */
+}
+
+/* Basic styling for the form */
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Styling for the submit button */
+input[type="submit"] {
+    background-color: #007bff; /* Button background color */
+    color: white;              /* Button text color */
+    padding: 10px 20px;        /* Button padding */
+    border: none;              /* Remove default border */
+    border-radius: 20px;       /* Rounded corners */
+    cursor: pointer;           /* Pointer cursor on hover */
+    font-size: 16px;           /* Font size */
+}
+
+input[type="text"] {
+    background-color: #f1f2f4; /* Button background color */
+    padding: 10px 20px;        /* Button padding */
+    border: none;              /* Remove default border */
+    border-radius: 20px;       /* Rounded corners */
+    cursor: pointer;           /* Pointer cursor on hover */
+    font-size: 16px;           /* Font size */
+}
+
+/* Optional: Styling for the button when hovered */
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker background on hover */
+}
+
+input[type="text"]:hover {
+    background-color: #f6f7f7; /* Darker background on hover */
+}
+
+.centered-text {
+    text-align: center; /* Center the text horizontally */
+}
